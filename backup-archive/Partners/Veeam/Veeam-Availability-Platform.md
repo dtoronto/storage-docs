@@ -5,7 +5,7 @@
 |X             |X           |              |(possible<br>through VLT<br>technology)|X                 |X                  |X            |X                  |
 
 ## Links to Marketplace Offerings
-- [link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.veeam-backup-replication?tab=Overview)
+- https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.veeam-backup-replication?tab=Overview
 
 ## Links to relevant documentation
 
