@@ -51,4 +51,4 @@
 - https://www.veeam.com/videos/cloud-restore-azure-integration-7999.html
 
 ### How to open support cases?
-- https://www.veeam.com/videos/cloud-restore-azure-integration-7999.html
+- https://www.veeam.com/support.html
