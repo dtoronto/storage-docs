@@ -32,31 +32,33 @@
 ## Links to User Guide content on Veeam’s Support Site
 - https://helpcenter.veeam.com/docs/backup/hyperv/overview.html
 
-## We are covering understanding network bandwidth and storage account guidance
--
+## Network bandwidth and storage account guidance
+- http://rps.dewin.me/bandwidth/
 
 ## Links to Screenshots
-- 
+- https://helpcenter.veeam.com/docs/backup/vsphere/images/azure_restore_vm.png
 
 ## A brief guide of how to monitor the deployment going forward
--
+- https://helpcenter.veeam.com/docs/one/qsg/welcome.html
 
 ## Information on Azure alerting and performance monitoring
--
+- https://helpcenter.veeam.com/docs/one/qsg/welcome.html
 
 ## Where can the customer go to view performance reports, job completion, and begin basic troubleshooting
--
+- https://helpcenter.veeam.com/docs/backup/vsphere/capacity_tier_offload_results.html
 
 ## Links to User Guide content on Veeam’s Support Site
--
+- https://helpcenter.veeam.com/docs/one/qsg/welcome.html
 
 ## Video showcasing implementing Azure Storage with Veeam
--
+- https://go.veeam.com/multi-cloud-demo-series
 
 ## Creating Azure Storage account creation videos
--
+- https://www.youtube.com/watch?v=FrseW3FLQzs&list=PL0afnnnx_OVBly8ZVCadF6ePErxXOQq1H
 
 ## Additional videos showcasing recovery in Azure and monitoring the backup to Azure
--
+- https://www.veeam.com/videos/cloud-restore-azure-integration-7999.html
 
 ## How to open support cases?
+- https://www.veeam.com/support.html
+
