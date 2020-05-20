@@ -2,7 +2,7 @@
 
 | GPv2 Storage |  Cool Tier | Archive Tier | WORM Support | On-prem to Azure | Backup Azure VM's | Azure Files | Backup Azure Blob |
 |--------------|------------|--------------|--------------|------------------|-------------------|-------------|-------------------|
-|X             |X           |              |              |X (Exchange to O365|                    |                   |             |                   |
+|X             |X           |              |              |X (Exchange to O365)|                    |                   |             |                   |
 
 ### Links to Marketplace Offerings
 - https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.office365backup?tab=Overview
