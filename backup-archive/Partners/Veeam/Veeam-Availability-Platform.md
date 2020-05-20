@@ -7,7 +7,8 @@
 ## Links to Marketplace Offerings
 - https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.veeam-backup-replication?tab=Overview
 
-## Links to relevant documentation
+## What is the Marketplace offering required for? Recovery in Azure?
+- Marketplace offering is an alternative to on premises installation, but not mandatory needed.
 
 ## A Reference Architecture for On-Premises to Azure and In-Azure deployments
 
