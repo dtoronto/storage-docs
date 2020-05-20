@@ -2,7 +2,7 @@
 
 | GPv2 Storage |  Cool Tier | Archive Tier | WORM Support | On-prem to Azure | Backup Azure VM's | Azure Files | Backup Azure Blob |
 |--------------|------------|--------------|--------------|------------------|-------------------|-------------|-------------------|
-|X             |X           |              |(possible<br>through VLT<br>technology)|X                 |X                  |X            |                   |
+|X             |X           |              |X (possible through 3rd party VTL |X                 |X                  |X            |                   |
 
 ### Links to Marketplace Offerings
 - 
@@ -23,40 +23,40 @@
 - 
 - 
 
-## A Reference Architecture for On-Premises -to-Azure and In-Azure deployment
+### A Reference Architecture for On-Premises -to-Azure and In-Azure deployment
 - 
 
-## A brief step-by-step of how to implement
+### A brief step-by-step of how to implement
 - 
 
-## Links to User Guide content on Veeam’s Support Site
+### Links to User Guide content on Veeam’s Support Site
 - 
 
-## We are covering understanding network bandwidth and storage account guidance
+### We are covering understanding network bandwidth and storage account guidance
 -
 
-## Links to Screenshots
+### Links to Screenshots
 - 
 
-## A brief guide of how to monitor the deployment going forward
+### A brief guide of how to monitor the deployment going forward
 -
 
-## Information on Azure alerting and performance monitoring
+### Information on Azure alerting and performance monitoring
 -
 
-## Where can the customer go to view performance reports, job completion, and begin basic troubleshooting
+### Where can the customer go to view performance reports, job completion, and begin basic troubleshooting
 -
 
-## Links to User Guide content on Veeam’s Support Site
+### Links to User Guide content on Veeam’s Support Site
 -
 
-## Video showcasing implementing Azure Storage with Veeam
+### Video showcasing implementing Azure Storage with Veeam
 -
 
-## Creating Azure Storage account creation videos
+### Creating Azure Storage account creation videos
 -
 
-## Additional videos showcasing recovery in Azure and monitoring the backup to Azure
+### Additional videos showcasing recovery in Azure and monitoring the backup to Azure
 -
 
-## How to open support cases?
+### How to open support cases?
