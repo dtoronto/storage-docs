@@ -32,7 +32,7 @@
 - https://helpcenter.veeam.com/docs/vbazure/guide/overview.html?ver=10
 
 ## Network bandwidth and storage account guidance
-- https://helpcenter.veeam.com/docs/vbazure/guide/backup_policy_cost_estimation.html?ver=10
+- http://rps.dewin.me/bandwidth/
 
 ## Where can the customer go to view performance reports, job completion, and begin basic troubleshooting
 - https://helpcenter.veeam.com/docs/vbazure/guide/session_statistics.html?ver=10
