@@ -1,3 +1,3 @@
-|   GPv2 Storage  |  Cool Tier   |  Archive Tier  | WORM Support |
-|-----------------|--------------|----------------|--------------|
-|                 |   Value 2    | 123            |      10.0    |
+|   GPv2 Storage  |  Cool Tier   |  Archive Tier  | WORM Support | Backup Azure VM's | Backup Azure Files | Backup Azure Blob |
+|-----------------|--------------|----------------|--------------|-------------------|--------------------|-------------------|
+|                 |   Value 2    | 123            |      10.0    |                   |                    |                   |
