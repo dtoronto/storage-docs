@@ -1,1 +1,1 @@
-# Documentation on Partners
+# Partner specific Documentation
