@@ -5,5 +5,4 @@
 |v11.5         |v11.5       |v11.10        |v11.12        |v11.5             |v11.5              |v11.6        |v11.6              |
 
 ## Link(s) to Marketplace Offering(s)
-- What is the Marketplace offering required for? Backup to Azure? Recovery in Azure? Protection of Azure Resources?
-- https://azuremarketplace.microsoft.com/en-us/marketplace/apps/commvault.commvault?tab=Overview
+1. What is the Marketplace offering required for? Backup to Azure? Recovery in Azure? Protection of Azure Resources?  * https://azuremarketplace.microsoft.com/en-us/marketplace/apps/commvault.commvault?tab=Overview
