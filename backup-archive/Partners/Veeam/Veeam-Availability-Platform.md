@@ -5,7 +5,11 @@
 |X             |X           |              |X (possible through 3rd party VTL) |X                 |X                  |X            |                   |
 
 ### Links to Marketplace Offerings
-- 
+- https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.veeam-backup-replication?tab=Overview
+- https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.veeam-backup-replication?tab=Overview
+- https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.azure_backup_free
+- https://azuremarketplace.microsoft.com/en-us/marketplace/apps/veeam.azure_backup
+
 
 ### Is the Marketplace Offering required for Backup into Azure?
 - 
