@@ -8,3 +8,13 @@ Brief description of the partner solution
 
 
 ## Links to Marketplace Offerings
+
+## Links to relevant documentation
+
+## A Reference Architecture for On-Premises to Azure and In-Azure deployments
+
+## A Brief Step-by-Step of How to Implement
+
+## A Short Video Showcasing the Implementation
+
+## How to Open Support Cases
