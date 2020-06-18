@@ -1,17 +1,17 @@
-##AZReplicate Documentation##
+## AZReplicate Documentation
 
 Many large customers have a need to migrate data from existing URL locations and our current toolset tends to be more suited for scenarios where transformation of data is required.  As many of our customers do not have these requirements, the Blob Storage team have developed a more streamlined set of tools capable of a direct copy from a multitude of different sources to a destination Storage Accounts located in Blob Storage.  
 
 The overall approach to this problem was to build a more simplistic toolset that was capable of consuming source and destination locations for objects from CSV, JSON, or typical tabular formatted databases.  On consumption, the tool would queue the jobs for copy from Azure Blob Storage and monitor the overall health of the migration in capturing and reporting on completed status of each job.
 
-#Parameters of the Tool:#
+### Parameters of the Tool:
 1.	The Sourcerer is primarially responsible for reading the source and destination data and then creating the ‘to do” job queue that can then be read into the Replicator engine.  The Sourcerer was built to injest data from different sources including: CSV, JSON or a tabular formatted database.  The Sourcerer reads the source and destination and builds each object into a JSON that identifies each object with accompanying source and destination that is sent to Queue storage for reading into the AZReplicate engine.  Configuration of the Sourcerer requires that each object contains an accessible URL and write permissions to the destination Storage Account. 
 
 2.	On successful completion of the ToDo queue by the Sourcerer engine, the Replicator engine reads the JSON in the ToDo Queue and creates an individual call for each object where a .net command is invoked that verifies the size of each individual object and invokes Copy Blob from URL operation for objects smaller than 256 MB or the Put Block from URL for objects larger than 256 MB.  These API’s create a new block to be committed or uses any committed block blob in Azure Storage account.
 
 3. After processing the object in the ToDo queue, the Replicator engine will receive a Successful or Status Error Code in response to the operation.  If the copy was successful, a message will be queued into a Done Queue which will then be read into a Completer engine.  Objects that received anything but Successful will be placed into a Dead Letter Queue for further analysis.  Each transaction and status code is appropriately logged into both an Object Table Log as well as an Application Insight Log for transparency and further analysis of the overall completion of the job.
  
-#Deployment Pattern:#
+### Deployment Pattern:
 1.	The environment platform is first deployed to Azure Container Instance with a one Sourcerer engine, one AZReplicate engine, and one Completer Engine and all accompanying queues and Logs.  On deployment it is necessary to deploy the Powershell script with all required and optional parameters which are outlined in the sample script.  Some of the peramaters can be modified including InstanceCount which may impact the number of containers deployed and overall performance of the migration.
 
 2.	Once the environment is deployed, the containers must be deployed to the Azure Container Instance environment using the sample script below.  This sample script will deploy the Sourcerer, AZReplicate and Completer containers to the environment.  Please note that the Sourcerer and Completer instances should be modified with the connection string and database schema that will be used to connect to source and destination data.  The samples used show connection to a simple SQL database and a CSV for source and destination as well as an Azure connection string for destination.  Because the sample is demonstrating a copy from URL, there is no need for a source connection string.  
